@@ -70,3 +70,10 @@ class MyApp extends StatelessWidget {
                     'https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     height: 200,
                   ),
+                  Icon(
+                    Icons.favorite,
+                    color: Colors.red,
+                    size: 48,
+                  ),
+                ],
+              ),
