@@ -46,4 +46,12 @@ class MyApp extends StatelessWidget {
                   color: Colors.grey[200],
                   borderRadius: BorderRadius.circular(8),
                 ),
-                
+               child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Icon(Icons.star),
+                    Text('Looking for Sunset'),
+                    Icon(Icons.star),
+                  ],
+                ),
+              ),
