@@ -97,3 +97,26 @@ class MyApp extends StatelessWidget {
                 },
                 child: Text('Text Button'),
               ),
+              SizedBox(height: 20),
+              Text(
+                'Stack and Layout Widgets',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(
+                    width: 200,
+                    height: 200,
+                    color: Colors.grey[300],
+                  ),
+                  Icon(
+                    Icons.star,
+                    size: 100,
+                    color: Colors.yellow,
+                  ),
+                ],
+              ),
