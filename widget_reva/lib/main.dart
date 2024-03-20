@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                 'flutter widget tugas 4',
                 style: TextStyle(fontStyle: FontStyle.italic),
               ),
-                            SizedBox(height: 20),
+              SizedBox(height: 20),
               Text(
                 'Container and Layout Widgets',
                 style: TextStyle(
@@ -55,3 +55,18 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
+              SizedBox(height: 20),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Image',
+                    style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Image.network(
+                    'https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                    height: 200,
+                  ),
