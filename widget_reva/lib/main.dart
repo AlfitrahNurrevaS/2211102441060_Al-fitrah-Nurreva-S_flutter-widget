@@ -142,5 +142,46 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              SizedBox(
+                height: 200,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return Container(
+                      width: 200,
+                      margin: EdgeInsets.all(8),
+                      color: Colors.grey[300],
+                      child: Center(
+                        child: Text('Item $index'),
+                      ),
+                    );
+                  },
+                ),
+              ),
+              SizedBox(height: 20),
+              GridView.count(
+                crossAxisCount: 3,
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
+                children: List.generate(
+                  6,
+                  (index) => Container(
+                    margin: EdgeInsets.all(8),
+                    color: Colors.grey[300],
+                    child: Center(
+                      child: Text('Item $index'),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
               
               
