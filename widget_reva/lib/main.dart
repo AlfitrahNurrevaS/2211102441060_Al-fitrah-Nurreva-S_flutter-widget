@@ -77,3 +77,23 @@ class MyApp extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
+              Text(
+                'Button Widgets',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  // Handle button press
+                },
+                child: Text('Elevated Button'),
+              ),
+              TextButton(
+                onPressed: () {
+                  // Handle button press
+                },
+                child: Text('Text Button'),
+              ),
