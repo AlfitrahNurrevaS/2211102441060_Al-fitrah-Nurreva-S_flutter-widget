@@ -134,4 +134,13 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              SizedBox(height: 20),
+              Text(
+                'Sunset on my gallery',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              
               
