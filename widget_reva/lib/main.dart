@@ -32,3 +32,18 @@ class MyApp extends StatelessWidget {
                 'flutter widget tugas 4',
                 style: TextStyle(fontStyle: FontStyle.italic),
               ),
+                            SizedBox(height: 20),
+              Text(
+                'Container and Layout Widgets',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.grey[200],
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                
