@@ -120,3 +120,18 @@ class MyApp extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
+              Center(
+                child: AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: Container(
+                    color: Colors.grey[200],
+                    padding: EdgeInsets.all(16),
+                    child: Text(
+                      'Container with Aspect Ratio',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
+                ),
+              ),
+              
